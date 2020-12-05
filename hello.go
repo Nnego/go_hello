@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/gogf/gf"
+)
 
 func main(){
-	fmt.Println("Hello World!")
+	fmt.Println("Hello GF!", gf.VERSION)
 }
